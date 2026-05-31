@@ -1,0 +1,16 @@
+# Entrenament / predicció (train_multi.py, model.py, predict_multi.py, predict.py)
+torch>=2.0.0
+numpy>=1.24.0
+tqdm>=4.65.0
+tensorboard>=2.13.0
+
+# Opcional: mètriques MCC durant l'entrenament (sense això, MCC sortirà com a n/a)
+scikit-learn>=1.3.0
+
+# Opcional: figures de corbes d'entrenament i calibratge (sense això, no es generen imatges)
+matplotlib>=3.7.0
+
+# Preprocessament (SMILES / Morgan): instal·la només si uses data_preprocess.py o prepare_test_data.py
+#   pip install rdkit
+# Si falla (p. ex. Python molt nou), prova: conda install -c conda-forge rdkit
+

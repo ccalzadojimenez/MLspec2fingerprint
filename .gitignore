@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Dades (fitxers massa grans per a GitHub)
+data/
+
+# Checkpoints i pesos del model
+checkpoints/
+checkpoints_single_bit/
+single_45_runs/
+
+# Logs de TensorBoard
+logs/
+logs_single_bit/
+
+# Figures generades
+figures/
+
+# Entorns virtuals
+venv/
+.venv/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Sistema operatiu
+.DS_Store
+Thumbs.db
